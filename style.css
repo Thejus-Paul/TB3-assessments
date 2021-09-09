@@ -39,6 +39,7 @@ a {
 	padding: .75rem 1.75rem;
 	background-color: rgb(110, 232, 208);
 	border-radius: 100px;
+	font-weight: bold;
 }
 #signup {
 	padding: .75rem 1.75rem;
@@ -48,7 +49,7 @@ a {
 
 .main {
 	height: 100%;
-	padding: 1rem 0;
+	padding: 2rem 0 4rem;
 	justify-content: space-evenly;
 }
 
@@ -71,3 +72,20 @@ a {
 	font-size: 1.25rem;
 }
 #get-started { align-self: flex-start; }
+
+.booking {
+	background-color: #F4F7FA;
+	height: 15vh;
+}
+
+.input-box {
+	width: 25%;
+	padding: .75rem;
+	border: 1px solid #b7bbbe;
+	border-radius: 8px;
+}
+
+#book-demo {
+	margin-left: 1rem;
+	border-radius: 8px;
+}
