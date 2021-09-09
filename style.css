@@ -75,7 +75,7 @@ a {
 
 .booking {
 	background-color: #F4F7FA;
-	height: 15vh;
+	height: 20vh;
 }
 
 .input-box {
@@ -173,5 +173,20 @@ a {
 	#get-started {
 		align-self: center;
 		margin: 1rem 0;
+	}
+	.booking {
+		flex-direction: column;
+	}
+	.input-box {
+		width: 90%;
+		margin: 1rem 0;
+	}
+	.btn-primary {
+		
+		padding: .75rem 3rem;
+	}
+	#book-demo {
+		margin: 0;
+		width: 90%;
 	}
 }
