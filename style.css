@@ -111,6 +111,7 @@ a {
 	background-color: #F4F7FA;
 	flex-basis: 25%;
 	padding: 2rem;
+	border-radius: 16px;
 }
 
 .description .title {
@@ -182,7 +183,6 @@ a {
 		margin: 1rem 0;
 	}
 	.btn-primary {
-		
 		padding: .75rem 3rem;
 	}
 	#book-demo {
@@ -199,5 +199,13 @@ a {
 	}
 	.content .item-box {
 		margin-bottom: 1rem;
+	}
+	.about {
+		flex-direction: column;
+	}
+	.contact-us {
+		align-items: flex-start;
+		justify-content: flex-start;
+		flex-basis: 50vh;
 	}
 }
