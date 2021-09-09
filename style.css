@@ -189,4 +189,15 @@ a {
 		margin: 0;
 		width: 90%;
 	}
+	.choose-us {
+		height: 100%;
+		padding: 1rem;
+	}
+	.choose-us .content {
+		flex-direction: column;
+		margin: 1rem;
+	}
+	.content .item-box {
+		margin-bottom: 1rem;
+	}
 }
