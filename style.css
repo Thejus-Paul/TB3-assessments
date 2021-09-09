@@ -159,3 +159,19 @@ a {
 .about-us {
 	flex-basis: 50vh;
 }
+
+@media screen and (max-width: 800px) {
+	.links { display: none; }
+	.main { 
+		flex-direction: column;
+		padding: 0 2rem;
+	}
+
+	.main #illustration {
+		width: 100%;
+	}
+	#get-started {
+		align-self: center;
+		margin: 1rem 0;
+	}
+}
