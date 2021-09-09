@@ -91,7 +91,7 @@ a {
 }
 
 .choose-us {
-	height: 60vh;
+	height: 90vh;
 	flex-direction: column;
 }
 
@@ -133,5 +133,29 @@ a {
 .subtitle {
 	font-weight: normal;
 	font-size: 1rem;
-	color:#F4F7FA
+	color:#7c7e80;
+}
+
+.about {
+	background-color: #F4F7FA;
+	height: 25vh;
+	flex-basis: 50%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about .title {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.about-us, .contact-us {
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.about-us {
+	flex-basis: 50vh;
 }
