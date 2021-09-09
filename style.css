@@ -35,8 +35,39 @@ a {
 .links > a,.login > a {
 	padding: 0 1rem;
 }
+.btn-primary {
+	padding: .75rem 1.75rem;
+	background-color: rgb(110, 232, 208);
+	border-radius: 100px;
+}
 #signup {
 	padding: .75rem 1.75rem;
 	background-color: rgb(110, 232, 208);
 	border-radius: 100px;
 }
+
+.main {
+	height: 100%;
+	padding: 1rem 0;
+	justify-content: space-evenly;
+}
+
+.main #illustration {
+	width: 30vw;
+}
+
+.content {
+	flex-direction: column;
+	justify-content: space-around;
+	flex-basis: 40%;
+}
+
+.content .title {
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.content .subtitle {
+	font-size: 1.25rem;
+}
+#get-started { align-self: flex-start; }
