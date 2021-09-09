@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #464646;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading {
+	justify-content: space-around;
+	padding: 2rem 0;
+	font-weight: bold;
+}
+
+.heading .title {
+	font-size: 2rem;
+}
+
+.links {
+	padding-left: 1rem;
+}
+
+.links > a,.login > a {
+	padding: 0 1rem;
+}
+#signup {
+	padding: .75rem 1.75rem;
+	background-color: rgb(110, 232, 208);
+	border-radius: 100px;
+}
